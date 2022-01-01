@@ -20,6 +20,7 @@ body{
     color: var(--text-color);
     font-size: 64px;
     font-family: arial, sans-serif;
+    text-align: center;
 }
 .center_absolute{
     position: absolute;
