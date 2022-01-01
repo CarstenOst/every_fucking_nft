@@ -1,0 +1,29 @@
+:root {
+    --main-bg: #101010;
+    --text-color: white;
+    --snus-color: #48412d; /* Snusboks-farge */
+    --content-bg: #334756;
+}
+*{
+    margin: 0;
+    padding: 0;
+} /* Default */
+body{
+    background-color: var(--main-bg);
+    width: 100vw;
+    height: 100vh;
+}
+.cont{
+    position: relative;
+}
+.text{
+    color: var(--text-color);
+    font-size: 64px;
+    font-family: arial, sans-serif;
+}
+.center_absolute{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
