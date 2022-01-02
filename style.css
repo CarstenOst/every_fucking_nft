@@ -4,6 +4,8 @@
     --snus-color: #48412d; /* Snusboks-farge */
     --content-bg: #334756;
 }
+/* Font(s) */
+@font-face { font-family: slkscr; src: url('/font/slkscr.ttf'); }
 *{
     margin: 0;
     padding: 0;
@@ -13,19 +15,54 @@ body{
     width: 100vw;
     height: 100vh;
 }
-.cont{
-    position: relative;
+.top_padding{
+    padding-top: 10px;
 }
 .text{
     color: var(--text-color);
-    font-size: 64px;
-    font-family: arial, sans-serif;
+    font-family: slkscr, sans-serif;
     text-align: center;
+    font-size: 23px;
 }
-.center_absolute{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 80vw;
+p{
+    color: var(--text-color);
+    font-family: slkscr, sans-serif;
+    text-align: center;
+    font-size: 13px;
+}
+.white_line{
+    background-color: white;
+    width: 100vw;
+    height: 5px;
+}
+.countDown{
+    position: relative;
+    margin-top: 60px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.cont{
+    position: relative;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+.child{
+    padding: 0 20px;
+    max-width: 200px;
+}
+.center_hor{
+    margin: auto;
+    width: 50%;
+}
+.sponsor{
+    position: relative;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+img{
+    max-height: 40px;
+    margin: 0 10px;
 }
