@@ -1,5 +1,5 @@
 // Set the date
-let countDownDate = new Date("Jan 11, 2022 20:00:00").getTime();
+let countDownDate = new Date("Jan 21, 2022 12:00:00").getTime();
 let tgsgs = 1000 * 60 * 60; // less numbers
 let tgsgsgtf = tgsgs * 24;
 
