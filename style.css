@@ -5,7 +5,7 @@
     --content-bg: #334756;
 }
 /* Font(s) */
-@font-face { font-family: slkscr; src: url('/font/slkscr.ttf'); }
+@font-face { font-family: slkscr; src: url('./font/slkscr.ttf'); }
 *{
     margin: 0;
     padding: 0;
